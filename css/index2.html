@@ -4,21 +4,29 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Моя собака</title>
+         <title>Dog</title>
         </head>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:wght@500&display=swap"  rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:wght@500&display=swap" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:wght@500&display=swap" rel="stylesheet" type="text/css">
         <style>
+           .style{
+            --color-primary:red;
+           }
             .aquamarine-text {
                 color: aquamarine;
                 font-family:'Bebas Neue', cursive;
                 font-size: 25px;
                 margin-left: 50px;
-            }
+                }
+            .text {
+                color:var(--color-primary);
+                }
             .отступ {
                 font-family:monospace;
-                margin-left:350px;
+                margin-left:300px;
+                font-size: 30px;
+                
             }
             .отступ2 {
                 font-family:monospace;
@@ -47,7 +55,7 @@
                 padding-left: 15px;
                 border-left: 3px solid rgb(180, 155, 12);
             }
-            #fit {
+            .fit {
                 color: rgb(90, 182, 78);
                 font-family: 'Lora', serif;
             }
@@ -55,6 +63,12 @@
             #fit1 {
                 color: rgb(78, 123, 182);
                 font-family: 'Lora', serif;
+            }
+            .colorh2{
+                font-size: 28px;
+                font-family:'Lora', serif ;
+                color:darkgoldenrod !important;
+                margin-left: 330px;
             }
         
             #fit2 {
@@ -66,14 +80,18 @@
                 color: rgb(182, 78, 135);
                 font-family: 'Lora', serif;
             }
-            .border {
-                border-color: rgb(145, 255, 0);
-                border-width: 4px;
+            .img {
+                border-color: rgb(31, 53, 4);
+                border-width: 4.5px;
                 border-style: solid;
             }
-            .border {
-                border-bottom-right-radius: 100% 20px;
+            .img1 {
+                border-color: black;
+                border-width: 2px;
+                border-style: solid;
             }
+
+            
             .border1 {
                 border-color: black;
                 border-style:groove;
@@ -93,7 +111,17 @@
                 margin: 15px;
                 margin-top: -15px;
                 text-align: center;
-
+            }
+            [type="range"] {
+            margin: 0px 2px 30px 1px;
+            }
+            .point {
+                margin: 60px 2px 0px 1px;
+            }
+            .point {
+                border-color: black;
+                border-width: 2px;
+                border-style: solid;
             }
            
         </style>
@@ -101,13 +129,13 @@
             <h1 class="aquamarine-text">Моя собака-Хаски</h1>
             <h2 class="отступ2">Содеражание</h2>
                 <ol>
-                <li><b><a href="#https://www.histoty.com" id="fit">История происхождения породы</a></b></li>
+                <li><b><a href="#https://www.histoty.com" class="fit">История происхождения породы</a></b></li>
                 <li><b><a href="#https://www.character.com" id="fit1">Характерные признаки собаки</a></b></li>
                 <li><b><a href="#https://www.different.com" id="fit2">Разновидность породы</a></b></li>
                 <li><b><a href="#https://www.plus and minus.com" id="fit3"> Плюсы и минусы породы</a></b></li>
                 </ol>
         
-            <h2 id="https://www.histoty.com" class="отступ">История происхождения породы</h2><br>
+            <h2 id="https://www.histoty.com" class="отступ fit">История происхождения породы</h2><br>
                     <img src="https://doghusky.ru/wp-content/uploads/2012/02/Siberian-Husky-Puppy-Photo_019.jpg" width="500" height="350" class="thick-yellow-border" alt="Щенята Хаски">
                     <img src="https://www.proplan.ru/sites/owners.proplan.ru/files/styles/image_576/public/2021-05/%D1%85%D0%B0%D1%81%D0%BA%D0%B8%207.jpg?itok=vp3387HY" width="500" height="350" class="thick-yellow-border" alt="Щенята Хаски2">
                 <p>История происхождения породы хаски теряется в глубине веков. Согласно одним данным, они появились 1500 лет назад, а по другим – более 3000. 
@@ -117,16 +145,17 @@
                 В дальнейшем произошло скрещивание собак с волками, в результате чего появились первые представители данной породы, и люди начали уже целенаправленно их разводить. 
                 Современными научными исследованиями доказано очень близкое генетическое родство хаски и волков.
                 По одной из версий, наименование восходит к названию племени эскимосов.
-                Искажённое, даже скорее жаргонное, слово «эски» означало <cite>«эскимосская собака».</cite></p>
+                Искажённое, даже скорее жаргонное, слово «эски» означало <cite class="text">«эскимосская собака».</cite></p>
                 <p class="cite">Однако более достоверным представляется другое предположение об их происхождении. 
                 Породу вывели чукчи – народ, занимающий обширную территорию на северо-востоке материка Евразия.</p>
                     <br>
-            <h2 id="https://www.character.com">Характерные признаки собаки</h2>
+            <h2 id="https://www.character.com"class="colorh2">Характерные признаки собаки</h2>
                 <p>Главным отличием является большое сходство с волком. У собак сильное, мускулистое тело, крепкие длинные лапы и плотная густая шерсть.
                      Все эти признаки помогают им хорошо переносить зимние холода, перевозить тяжёлые нарты на дальние расстояния. При необходимости хаски могут обходиться небольшим количеством пищи.
                       Эти животные могут быть небольших и средних размеров, форма туловища подтянутая, морда слегка укороченная. Рост в среднем достигает 60 сантиметров, вес – около 30 килограммов.</p>
                     <br>
-                    <img src="https://vplate.ru/images/article/orig/2019/04/istoriya-proishozhdeniya-porody-haski-5.jpg" width="500" height="350" class="border" alt="Размеры породы">
+                    <img src="https://vplate.ru/images/article/orig/2019/04/istoriya-proishozhdeniya-porody-haski-5.jpg" width="500" height="350" class="img" alt="Размеры породы">
+                    <img src="https://dogbuldog.ru/wp-content/uploads/2017/10/malamute.png" width="500" height="350" class="img img1" alt="Размеры породы">
                 <p>Согласно стандарту породы, у собак должны быть тёмными спина, уши и верхняя часть головы. Живот, лапы и мордочка – белые,
                      а также выделяются характерные светлые пятна – «очки» вокруг глаз.
                      Встречаются животные с чисто-белой и рыжеватой окраской шерсти, но это редкость, скорее исключение.</p>
@@ -138,14 +167,14 @@
                       <p class="box-green border1">В этом и есть красота породы-Глаза!</p>  
                         </div>
                     <img src="https://vplate.ru/images/article/orig/2019/04/istoriya-proishozhdeniya-porody-haski-7.jpg" width="500" height="350" alt="Глаза">
-                <p>Собаки данной породы очень выносливы, неутомимы и динамичны. Им нужно постоянное движение и физические нагрузки. 
+                <p style="color: rgb(32, 6, 31);">Собаки данной породы очень выносливы, неутомимы и динамичны. Им нужно постоянное движение и физические нагрузки. 
                     Они любят длительные прогулки, бег и игры на свежем воздухе, прекрасно себе чувствуют в холодном климате.
                     Хаски дружелюбные, приветливые, преданные и совсем не агрессивные. 
                     Отлично уживаются с другими домашними питомцами. Подходят для семей с детьми.
                     Благодаря особенной чистоплотности могут жить даже с аллергиками.</p>     
                     
              <h2 id="https://www.different.com">Разновидность породы</h2><!--Создание упороядочных элементов-->     
-                <strong><p style="color:blue;">В настоящее время в породе выделяют 3 основных направления:</p></strong><!--создание выделение текста-->
+                <strong><p>В настоящее время в породе выделяют 3 основных направления:</p></strong><!--создание выделение текста-->
                 <ul>
                     <i><li>Рабочие</li></i>
                     <i><li>Гоночные, или спортивные</li></i>
@@ -170,7 +199,7 @@
                 <img src="https://myslide.ru/documents_7/a1d827cf25ea7bc54d3908d37ffa0da5/img15.jpg"  width="500" height="350" alt="Плюсы и минусы"></a> <br>
                     <!--Создания  ползунков(научиться,правильно оформлять)-->
                     <br>
-                    <ul><li><h4>Агрессивность</h4></li></ul>
+                    <ul><li><h4 class="point">Агрессивность</h4></li></ul>
                     <br><em>(не агрессивная)</em><br>
                     <input type="range" min="2" max="0" step="1" value="min" Autocomplete><p>(Рейтинг 1 из 5)</p>   
                     <br>
@@ -198,11 +227,6 @@
                     
                     <!-- <P>Создание формы</p> -->
             <h2>Опрос</h2>
-            <style>
-                h2{
-                    color: red;
-                }
-            </style>
                     <p><b>Как зовут вашу собаку?</b><br>   
                     <input type="text" placeholder="Имя" size="30" required></p>
                     <p><b>Сколько лет вашей  собаке?</b><br>
