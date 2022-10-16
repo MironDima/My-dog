@@ -1,0 +1,111 @@
+:root{
+    --color-primary:red;
+}
+ .aquamarine-text {
+     color: aquamarine;
+     font-family:'Bebas Neue', cursive;
+     font-size: 25px;
+     margin-left: 50px;
+     }
+ .text {
+     color:var(--color-primary);
+     }
+ .отступ {
+     font-family:monospace;
+     margin-left:300px;
+     font-size: 30px;
+     
+ }
+ .отступ2 {
+     font-family:monospace;
+     margin-left:60px;
+ }
+ .silver-background {
+     background-color: rgb(165, 60, 60);
+ }
+ .thick-yellow-border {
+    border-color: yellow;
+    border-width: 10px;
+    border-style: solid;
+}
+.thick-yellow-border {
+    border-radius: 10px 20px;
+}
+p {
+    color: rgb(31, 5, 73);
+    font-family: 'Bebas Neue', cursive;
+}
+.cite {
+    color:rgb(56, 136, 32);
+    margin-left: 20px;
+    padding-left: 15px;
+    border-left: 3px solid rgb(180, 155, 12);
+}
+.fit {
+    color: rgb(90, 182, 78);
+    font-family: 'Lora', serif;
+}
+
+#fit1 {
+    color: rgb(78, 123, 182);
+    font-family: 'Lora', serif;
+}
+.colorh2{
+    font-size: 28px;
+    font-family:'Lora', serif ;
+    color:darkgoldenrod !important;
+    margin-left: 330px;
+}
+
+#fit2 {
+    color: rgb(37, 19, 104);
+    font-family: 'Lora', serif;
+}
+
+#fit3 {
+    color: rgb(182, 78, 135);
+    font-family: 'Lora', serif;
+}
+.img {
+    border-color: rgb(31, 53, 4);
+    border-width: 4.5px;
+    border-style: solid;
+}
+.img1 {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+.border1 {
+    border-color: black;
+    border-style:groove;
+    border-width: 2px;
+}
+.box-yellow {
+    background-color: azure;
+    padding:10px;
+    margin: 15px;
+}
+.box-green {
+    background-color: rgb(134, 148, 11);
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin: 15px;
+    margin-top: -15px;
+    text-align: center;
+}
+[type="range"] {
+margin: 0px 2px 30px 1px;
+}
+.point {
+    margin: 60px 2px 0px 1px;
+}
+.point {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
