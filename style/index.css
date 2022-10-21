@@ -1,18 +1,47 @@
+body {
+    background:linear-gradient(90deg,#16dddd59, #f34e4e48, #5fe9ee44);
+    min-height: 150vh;
+}
+/*
+#navbar{
+    position: fixed;
+    top: opx;
+    left: 500px;
+}
+*/
 :root{
+
     --color-primary:red;
 }
  .aquamarine-text {
-     color: aquamarine;
+     color: hsl(180, 90%, 35%);
      font-family:'Bebas Neue', cursive;
-     font-size: 25px;
-     margin-left: 50px;
+     font-size: 27px;
+     font-weight: 600;
+     margin-left: 48px;
+     background-color: rgba(114, 161, 231, 0.13, 0.7);
+     margin-right: 1000px;
+     box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+     text-transform:uppercase;
      }
+     .div{
+        position: absolute;
+        margin: auto;
+        width: 80px;
+        height: 80px;
+        border-radius: 25px;
+        box-shadow: 50px 25px 0 0 rgba(56, 59, 245, 0.699);
+        background-color: rgba(247, 64, 58, 0.692);
+    margin-left: 1200px;
+
+     }
+     
  .text {
      color:var(--color-primary);
      }
  .отступ {
      font-family:monospace;
-     margin-left:300px;
+     text-align: center;
      font-size: 30px;
      
  }
@@ -27,13 +56,20 @@
     border-color: yellow;
     border-width: 10px;
     border-style: solid;
+    width: 600px;
+    box-shadow:0 10px 20px rgba(69, 206, 6, 0.19), 0 6px 6px rgba(207, 7, 7, 0.23);
+    text-transform:uppercase;
 }
 .thick-yellow-border {
     border-radius: 10px 20px;
+    position: relative;
+    left:25px;
 }
 p {
     color: rgb(31, 5, 73);
     font-family: 'Bebas Neue', cursive;
+    text-align: justify;
+    line-height: 27px;
 }
 .cite {
     color:rgb(56, 136, 32);
@@ -41,71 +77,118 @@ p {
     padding-left: 15px;
     border-left: 3px solid rgb(180, 155, 12);
 }
-.fit {
+.a1 {
     color: rgb(90, 182, 78);
-    font-family: 'Lora', serif;
+     font-family: 'Lora', serif;
 }
-
-#fit1 {
+ .a1:hover {
+    color:red;
+ }
+.a2 {
     color: rgb(78, 123, 182);
     font-family: 'Lora', serif;
+}
+.a2:hover {
+    color:black;
 }
 .colorh2{
     font-size: 28px;
     font-family:'Lora', serif ;
-    color:darkgoldenrod !important;
-    margin-left: 330px;
+    text-align: center;
 }
 
-#fit2 {
+.a3 {
     color: rgb(37, 19, 104);
     font-family: 'Lora', serif;
 }
+.a3:hover {
+    color:rgb(9, 241, 59);
+}
 
-#fit3 {
+.a4 {
     color: rgb(182, 78, 135);
-    font-family: 'Lora', serif;
+    font-family: 'Lora',  serif;
+}
+.a4:hover {
+    color:rgb(44, 9, 241);
 }
 .img {
-    border-color: rgb(31, 53, 4);
-    border-width: 4.5px;
+    border-color: rgb(253, 168, 11);
+    border-width: 8px;
     border-style: solid;
+    border-radius: 10px 20px;
+    width:600px
 }
+.img{
+    position: relative;
+    left:25px;
+    box-shadow:0 10px 20px rgba(255, 231, 18, 0.658), 0 6px 6px rgba(243, 247, 32, 0.315);
+}
+
 .img1 {
     border-color: black;
     border-width: 2px;
     border-style: solid;
 }
-
+/*.img1 {
+    position: relative;
+    left:400px;
+}*/
 
 .border1 {
     border-color: black;
     border-style:groove;
     border-width: 2px;
 }
-.box-yellow {
-    background-color: azure;
+.border1 {
+    float:right;
+    width: 58%
+}
+.box1 {
+    background:linear-gradient(90deg,rgba(243, 75, 243, 0.5),rgba(102, 102, 219, 0.575),rgba(59, 230, 193, 0.623));
     padding:10px;
-    margin: 15px;
-}
-.box-green {
-    background-color: rgb(134, 148, 11);
-    padding-left: 15px;
-    padding-top: 2px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    margin: 15px;
-    margin-top: -15px;
+    margin-top: -358px;
+    padding-top:61px;
+    padding-bottom:45px ;
     text-align: center;
+   
+    
 }
+.box2 {
+    background-color: rgba(25, 128, 168, 0.952);
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    margin-left: 13px;
+    margin-top: -170px;
+    text-align: center;
+    color: rgba(226, 13, 13, 0.575);
+    font-size: 20px;
+   }
 [type="range"] {
 margin: 0px 2px 30px 1px;
+transform: scale(1.2);
 }
-.point {
-    margin: 60px 2px 0px 1px;
-}
-.point {
-    border-color: black;
-    border-width: 2px;
+.li {
+    border-color: aqua;
+    border-width: 4px;
     border-style: solid;
+}
+[type="src"]:hover{
+transform: scale(2.1);
+}
+.mark{
+    margin-bottom: -38px;
+   
+     margin-left:1250px;
+}
+    #animation {
+    animation-name: colorful;
+    animation-duration: 30s;
+}
+    @keyframes colorful {
+    0% {background-color: rgba(18, 168, 179, 0.336);}
+    50% {background-color: rgba(240, 14, 14, 0.582);}
+    100% {background-color: rgba(228, 20, 37, 0.425);}
 }
