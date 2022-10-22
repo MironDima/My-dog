@@ -175,6 +175,17 @@ transform: scale(1.2);
     border-width: 4px;
     border-style: solid;
 }
+.row {
+    padding: 1px;
+    display: flex;
+}
+.column {
+    border: 1px solid black;
+    display: inline-block;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
 [type="src"]:hover{
 transform: scale(2.1);
 }
