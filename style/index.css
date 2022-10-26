@@ -24,18 +24,6 @@ body {
      box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
      text-transform:uppercase;
      }
-     .div{
-        position: absolute;
-        margin: auto;
-        width: 80px;
-        height: 80px;
-        border-radius: 25px;
-        box-shadow: 50px 25px 0 0 rgba(56, 59, 245, 0.699);
-        background-color: rgba(247, 64, 58, 0.692);
-    margin-left: 1200px;
-
-     }
-     
  .text {
      color:var(--color-primary);
      }
@@ -176,22 +164,57 @@ transform: scale(1.2);
     border-style: solid;
 }
 .row {
+    
     padding: 1px;
     display: flex;
+    flex-direction: row;
 }
-.column {
+.flex-conteiner1 {
     border: 1px solid black;
-    display: inline-block;
-    flex-grow: 1;
-    flex-basis: 100%;
+    background-color:linear-gradient(90deg,rgba(243, 109, 75, 0.5),rgba(219, 102, 161, 0.575),rgba(170, 230, 59, 0.623)); 
+    border-radius: 15%;
+    border-width: 5px;
+    border-style: solid;
+    display:flex;
+    flex-grow: 35%;
+    flex-basis: 40%;
+    margin-left: 10px;
+    padding-left: 160px;
+    
 }
 
+.flex-conteiner2{
+    border: 1px solid rgba(190, 238, 17, 0.459);
+    border-radius: 15%;
+    background-color:linear-gradient(90deg,rgba(243, 75, 243, 0.877),rgba(102, 102, 219, 0.575),rgba(59, 230, 193, 0.623)); 
+    border-style: solid;
+    border-width: 5px;
+    display:flex;
+    flex-grow: 35%;
+    flex-basis: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 130px;
+    padding-right: 2px;
+} 
+.flex-conteiner3{
+    border: 1px solid rgba(238, 61, 17, 0.459);
+    border-radius: 15%;
+    background-color:linear-gradient(90deg,rgba(125, 75, 243, 0.541rgba(198, 219, 102, 0.575)5),rgba(59, 230, 193, 0.623)); 
+    border-width: 5px;
+    border-style: solid;
+    display:flex;
+    flex-grow: 35%;
+    flex-basis: 40%;
+    margin-right: 10px;
+    padding-left: 165px;
+    padding-right: 10px;
+}
 [type="src"]:hover{
 transform: scale(2.1);
 }
 .mark{
     margin-bottom: -38px;
-   
      margin-left:1250px;
 }
     #animation {
@@ -203,3 +226,28 @@ transform: scale(2.1);
     50% {background-color: rgba(240, 14, 14, 0.582);}
     100% {background-color: rgba(228, 20, 37, 0.425);}
 }
+.div{
+    position: absolute;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+    box-shadow: 50px 25px 0 0 rgba(56, 59, 245, 0.699);
+    background-color: rgba(247, 64, 58, 0.692);
+    margin-left: 1200px;
+ }
+    #animation2 {
+    animation-name: color;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    }
+    @keyframes color {
+        0% {transform:scale(0.3) rotate(90deg)};
+        100% {transform: scale(0.8) rotate(90deg)};
+    }
+    .fase {
+        color: maroon;
+        font-size: 22px;
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+    }
